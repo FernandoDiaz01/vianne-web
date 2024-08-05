@@ -1,0 +1,28 @@
+.container-app{
+    margin-top: 1%;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+
+}
+
+.items-navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 290%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+}
