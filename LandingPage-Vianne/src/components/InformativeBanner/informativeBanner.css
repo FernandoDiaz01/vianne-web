@@ -1,0 +1,28 @@
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 208, 208);
+    padding: 5%;
+    margin-top: 5%;
+    width: 100%;   
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.iconBanner{
+   
+    width: 40px;
+     height: auto;
+    object-fit: contain; 
+}
+
+.description{
+    font-size: 20px;
+}

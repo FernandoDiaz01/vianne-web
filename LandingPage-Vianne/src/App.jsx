@@ -1,7 +1,9 @@
 
 import './App.css'
-import Header from './components/HomePage/HomePage/Header'
-import Navigation from './components/Nav/Navigation'
+/* import Content from './components/Content/Content'
+ */import Header from './components/HomePage/HomePage/Header'
+import InformativeBanner from './components/InformativeBanner/InformativeBanner'
+import Navigation from './components/NavPage/Navigation'
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
     <>
     <Header/>
     <Navigation />
+    <InformativeBanner />
+  {/*   <Content /> */}
     </>
   )
 }
