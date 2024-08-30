@@ -15,7 +15,7 @@ export default function Home() {
             />
             <h1 className="title">Vianne Indumentaria</h1>
             <ul className="items-navbar">
-              <li > <a href="" target="_blank"><img className="icon" src={instagramIcon} alt="Instagram" /> </a>   </li>
+              <li > <a href="https://www.instagram.com/vianne.indumentaria/" target="_blank"><img className="icon" src={instagramIcon} alt="Instagram" /> </a>   </li>
              <li > <a href="" target="_blank"> <img className="icon" src={whatsappIcon} alt="WhatsApp" />  </a></li>
            </ul>
           </div>

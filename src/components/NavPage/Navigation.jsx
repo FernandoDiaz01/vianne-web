@@ -1,10 +1,11 @@
+import { NavLink } from 'react-router-dom'
 import './navigation.css'
 
 export default function Navigation() {
   return (
   <nav>
 		<ul className="menu-horizontal">
-			<li><a href="#">Inicio</a></li>
+			<li><NavLink to="/">Inicio </NavLink></li>
 			<li>
 				<a href="#">Productos</a>
 				<ul className="menu-vertical">
@@ -15,7 +16,7 @@ export default function Navigation() {
 			<li>
 				<a href="#">Sobre Nosotras</a>
 			</li>
-			<li><a href="#">Contacto</a></li>
+			<li><NavLink target="_blank" rel="noopener noreferrer" to="/nosotras">Contacto </NavLink> </li>
 
 		</ul>
 	</nav>
