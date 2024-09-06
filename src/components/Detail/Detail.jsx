@@ -1,6 +1,6 @@
 import Navigation from '../NavPage/Navigation'
 import Header from '../HomePage/HomePage/Header.jsx'
-import imgDetalle from '../../json/clothe.json' //Reemplazar el json por el fetch a la base de datos
+import imgDetalle from '../../json/clothe.json'
 import Footer from '../Footer/Footer.jsx'
 import './detail.css'
 

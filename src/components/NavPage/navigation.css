@@ -1,15 +1,21 @@
 
 
 nav{
-	max-width: 900px;
-	margin: auto;
-	font-size: 20px;
-	margin-top: 50px;
-    border-radius: 5%;
-    padding: 5px;
+	width: 100%;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+	background-color: black
+	
+	
 }
 .menu-horizontal{
-  
+	
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
@@ -17,13 +23,13 @@ nav{
 .menu-horizontal > li > a{
 	display: block;
 	padding: 15px 20px;
-	color: black;
+	color: white;
 	text-decoration: none;
 	border-radius: 10%;
 }
 .menu-horizontal > li:hover{
-	background-color: #fad6c6;
-	border-radius: 10%;
+	background-color: #CCE64F;
+	border-radius: 5%;
     
 }
 .menu-vertical{
@@ -31,23 +37,30 @@ nav{
 	display: none;
 	list-style: none;
 	width: 150px;
-	background-color: #ffe2d6;
-    border: 2px solid white;
-	border-radius: 10%;
+	background-color: #CCE64F;
+    border: 2px solid black;
+	border-radius: 5%;
 }
 .menu-horizontal li:hover .menu-vertical{
 	display: block;
-    border-radius: 10%;
+	border-radius: 5%;
 }
 .menu-vertical li:hover{
-	background-color: #fad6c6;
-	border-radius: 10%;
+	background-color: #A2BD22;
+	border-radius: 5%;
 }
 
 .menu-vertical li a{
 	display: block;
 	color: black;
-	border-radius: 10%;
 	text-decoration: none;
 	padding: 15px 15px 15px 20px;
+	border-radius: 5%;
+}
+
+.img-fondo{
+	position: relative;
+    width: 100%;
+    height: 100vh;
+   
 }

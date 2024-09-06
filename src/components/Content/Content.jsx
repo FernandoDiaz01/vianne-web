@@ -10,9 +10,12 @@ export default function Content() {
       <div className="product-container">
         {clotheData.map((item, index)=>(
           <div className="card-container" key={index}>
-            <h1>{item.Nombre} </h1>
+            <div className="container-title-shoes">
+
+            <h2 className='title-shoes'>{item.Nombre} </h2>
+            </div>
             <img src={item.Image} alt="" />
-            <h3>{item.Precio} </h3>
+            <h5 className='price'>{item.Precio} </h5>
           </div>
         ))}
       </div>

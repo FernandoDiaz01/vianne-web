@@ -13,20 +13,31 @@
     flex-direction: column;
 }
 
+.title{
+    font-size: 50px;
+}
+
 .product-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
+ display: flex;
+ align-items: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+ max-width: 900px;
+ justify-content: space-between;
 }
 
 .card-container {
     cursor: pointer;
 }
 
-h1 {
-    margin-bottom: 4px;
+.container-title-shoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-shoes {
+    margin: 30px;
 }
 
 h3 {
@@ -35,11 +46,17 @@ h3 {
 
 .btn-content{
     border: 2px solid white;
-    background-color: #E1A88F;
+    background-color: #CCE64F;
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
     color: white;
     border-radius: 10px;
     font-weight: bold;
+    margin: 20px;
+}
+
+.btn-content:hover{
+    background-color: #A2BD22;
+    transition: all 0.5 ease;
 }
