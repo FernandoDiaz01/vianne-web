@@ -16,7 +16,7 @@ export default function Navigation() {
 					<li><a href="#">Otoño / Invierno</a></li>
 				</ul>
 			</li>
-			<li><NavLink target="_blank" rel="noopener noreferrer" to="/nosotras">Contacto </NavLink> </li>
+			<li><NavLink target="_blank" rel="noopener noreferrer">Contacto </NavLink> </li>
 		</ul>
 	</nav>
 			<img className='img-fondo' src={imgFondo} alt="" />

@@ -30,8 +30,8 @@
 .copy-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: column;
     padding: 1%;
     font-weight: bolder;
 }

@@ -1,5 +1,5 @@
 import Navigation from '../NavPage/Navigation'
-import Header from '../HomePage/HomePage/Header.jsx'
+
 import imgDetalle from '../../json/clothe.json'
 import Footer from '../Footer/Footer.jsx'
 import './detail.css'
@@ -8,7 +8,7 @@ export default function Detail() {
   return (
     <>
   
-    <Header/>
+
     <Navigation/>
     <div className="detail-container">
       <div className="detail-content-container">

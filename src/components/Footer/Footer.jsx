@@ -16,7 +16,8 @@ export default function Footer() {
             </ul>
         </div>
         <div className="copy-container">
-            <p className="copyright">Copyright © Stomps | Tel:+54 9 11 5110-6369 - Email: vianne.indumentaria@gmail.com</p>
+            <p className="copyright"> Tel:+54 9 11 5110-6369 - Email: llanezabautista6@gmail.com</p>
+            <p className="copyright"> Copyright © Desarrollado por Fernando Diaz fdiaz4823@gmail.com</p>
         </div>
     </div>
    

@@ -1,39 +1,52 @@
-.content-container{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: center;
-   margin-top: 50px;
+.content-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.title-container{
+.title-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.title{
+.title {
     font-size: 50px;
 }
 
 .product-container {
- display: flex;
- align-items: center;
- flex-direction: row;
- flex-wrap: wrap;
- max-width: 900px;
- justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye espacio entre las tarjetas */
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 20px; /* Agrega espacio entre las tarjetas */
 }
 
 .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; /* Cada tarjeta ocupará el 30% del contenedor */
+    max-width: 300px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
-.container-title-shoes{
+.container-title-shoes {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.img-shoes{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .title-shoes {
@@ -44,7 +57,12 @@ h3 {
     margin-top: 4px;
 }
 
-.btn-content{
+.price{
+    font-size: larger;
+    padding: 10px;
+}
+
+.btn-content {
     border: 2px solid white;
     background-color: #CCE64F;
     font-size: 20px;
@@ -56,7 +74,73 @@ h3 {
     margin: 20px;
 }
 
-.btn-content:hover{
+.btn-content:hover {
     background-color: #A2BD22;
     transition: all 0.5 ease;
+}
+/* content.css */
+.btn-content {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #CCE64F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-content:hover {
+    background-color: #78AA02;
+  }
+  
+  .btn-whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #CCE64F; /* Color verde característico de WhatsApp */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btn-whatsapp:hover {
+    background-color: #78AA02; /* Color verde oscuro de WhatsApp */
+  }
+  
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 468px) {
+    .title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .product-container {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center;
+    }
+
+    .card-container {
+        width: 100%; /* Ocupa el 100% en pantallas pequeñas */
+        margin-bottom: 20px;
+    }
+
+    .btn-content {
+        font-size: 16px;
+        padding: 8px;
+        margin: 10px;
+    }
+
+    .title-shoes {
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
 }
