@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 2%;
-    flex-wrap: wrap; /* Asegura que los elementos no se desborden */
+    flex-wrap: wrap;
 }
 
 .info-footer-container{
@@ -14,9 +14,8 @@
     flex-direction: column;
     margin-bottom: 20px;
 }
-
-.title-footer{
-    font-size: 25px;
+.title-info{
+    color: white;
 }
 
 .list-footer{
@@ -39,12 +38,11 @@
 .links {
     color: white;
     text-decoration: none;
-    transition: transform 0.6s ease-in;
+
 }
 
 .links:hover {
-    transform: scale(1.8);
-    color: #e1a88f;
+    color: black;
 }
 
 .img-footer{

@@ -1,11 +1,11 @@
 
 import './App.css'
 
-import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
 
 import InformativeBanner from './components/InformativeBanner/InformativeBanner'
 import Navigation from './components/NavPage/Navigation'
+import ViewGrid from './components/ViewGrid/ViewGrid';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
     <Navigation />
     <InformativeBanner />
-    <Content />
+    <ViewGrid/>
     <Footer />
     </>
   )

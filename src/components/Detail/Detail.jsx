@@ -1,6 +1,6 @@
-import Navigation from '../NavPage/Navigation'
+/* import Navigation from '../NavPage/Navigation'
 
-import imgDetalle from '../../json/clothe.json'
+import imgDetalle from '../../json/shoes.js'
 import Footer from '../Footer/Footer.jsx'
 import './detail.css'
 
@@ -33,3 +33,4 @@ export default function Detail() {
     </>
   )
 }
+ */
