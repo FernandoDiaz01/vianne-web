@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import InnerImageZoom from "react-inner-image-zoom";
+import './carditem.css'
 
 export const CardItem = ({ item }) => {
   return (
@@ -9,17 +10,17 @@ export const CardItem = ({ item }) => {
       </div>
 
       <InnerImageZoom
-       
         src={item.Image}
         zoomSrc={item.Image}
         alt={item.name}
         zoomType="hover"
         zoomPreload={true}
         className="img-shoes"
-        zoomScale={0.8}
+        zoomScale={0.9}
       />
 
       <h5 className="price">{item.Precio} </h5>
+      <div className="container-btn-whatsapp">
       <a
         href={item.Ref}
         target="_blank"
@@ -28,6 +29,8 @@ export const CardItem = ({ item }) => {
       >
         Contacta por WhatsApp
       </a>
+      </div>
+     
     </div>
   );
 };

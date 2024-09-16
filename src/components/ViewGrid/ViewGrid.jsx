@@ -1,5 +1,5 @@
 import Content from "../Content/Content";
-
+import './viewgrid.css'
 
 export default function ViewGrid() {
   return (
