@@ -18,7 +18,7 @@ export default function Navigation() {
           </li>
           <li>
             <NavLink
-              to="https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información"
+              to="https://wa.me/542615750680?text=Hola%20me%20interesa%20más%20información"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -27,7 +27,7 @@ export default function Navigation() {
           </li>
           <li>
             <NavLink
-              to="https://wa.me/542615133452?text=Hola%20quería%20ver%20más%20modelos%20de%20zapatillas"
+              to="https://wa.me/542615750680?text=Hola%20quería%20ver%20más%20modelos%20de%20zapatillas"
               target="_blank"
               rel="noopener noreferrer"
             >
