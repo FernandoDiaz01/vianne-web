@@ -1,5 +1,4 @@
-
-
+/* Estilos generales (desktop) */
 .container-btn-whatsapp {
   display: flex;
   align-items: center;
@@ -7,7 +6,7 @@
   flex-direction: column;
 }
 
-.price{
+.price {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +15,7 @@
 }
 
 .btn-whatsapp {
-  
+  text-decoration: none;
   margin-top: 30px;
   padding: 12px 24px;
   background-color: #25D366; 
@@ -33,19 +32,14 @@
   gap: 10px;
 }
 
-.icon-wpp{
+.icon-wpp {
   width: 40px;
   height: 40px;
 }
+
 .btn-whatsapp:hover {
   background-color: #a0f11d; 
   transform: scale(1.05);
-}
-
-.btn-whatsapp::before {
-
-  display: inline-block;
-  
 }
 
 .btn-content {
@@ -63,6 +57,58 @@
 
 .btn-content:hover {
   background-color: #9eff44;
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
- 
+
+/* Estilos para tablet */
+@media (max-width: 768px) {
+
+  .title-shoes{
+    font-size: 18px;
+  }
+  .price {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .btn-whatsapp {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .icon-wpp {
+    width: 35px;
+    height: 35px;
+  }
+
+  .btn-content {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Estilos para mobile */
+@media (max-width: 480px) {
+  .title-shoes{
+    font-size: 18px;
+  }
+  .price {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .btn-whatsapp {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .icon-wpp {
+    width: 30px;
+    height: 30px;
+  }
+
+  .btn-content {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

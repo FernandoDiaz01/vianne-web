@@ -43,34 +43,42 @@ export const data = {
     {
       "Nombre": "Vans Knu Caramelo",
       "Image": "./vans/vans-knu-caramelo.jpeg",
-      "Precio": "$10.000"
+      "Precio": "$10.000",
+      "Ref": "https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información%20sobre%20las%20zapatillas%20Vans%20Knu%20Caramelo"
     },
     {
       "Nombre": "Vans Knu Cuadros",
       "Image": "./vans/vans-knu-cuadros.jpeg",
-      "Precio": "$10.000"
+      "Precio": "$10.000",
+      "Ref": "https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información%20sobre%20las%20zapatillas%20Vans%20Knu%20Cuadros"
     },
     {
-      "Nombre": "Vans Knu Caramelo",
+      "Nombre": "Vans Knu Cuero White",
       "Image": "./vans/vans-knu-cuero-white.jpeg",
-      "Precio": "$10.000"
+      "Precio": "$10.000",
+      "Ref": "https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información%20sobre%20las%20zapatillas%20Vans%20Knu%20Cuero%20White"
     }
   ],
   "Puma": [
     {
       "Nombre": "Puma Suede Pink",
       "Image": "./puma/puma-suede-pink.jpeg",
-      "Precio": "$10.000"
+      "Precio": "$10.000",
+      "Ref": "https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información%20sobre%20las%20zapatillas%20Puma%20Suede%20Pink"
     },
     {
       "Nombre": "Puma Suede Light Blue",
       "Image": "./puma/puma-suede-light-blue.jpeg",
-      "Precio": "$10.000"
+      "Precio": "$10.000",
+      "Ref": "https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información%20sobre%20las%20zapatillas%20Puma%20Suede%20Light%20Blue"
+
     },
     {
       "Nombre": "Puma Suede Red",
       "Image": "./puma/puma-suede-red.jpeg",
-      "Precio": "$10.000"
+      "Precio": "$10.000",
+      "Ref": "https://wa.me/542615133452?text=Hola%20me%20interesa%20más%20información%20sobre%20las%20zapatillas%20Puma%20Suede%20Red"
+
     }
   ]
 }
