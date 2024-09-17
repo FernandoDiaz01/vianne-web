@@ -25,6 +25,15 @@ export default function Navigation() {
               Contacto
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="https://wa.me/542615133452?text=Hola%20quería%20ver%20más%20modelos%20de%20zapatillas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consultá por otros modelos
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <img className="img-fondo" src={imgFondo} alt="" />
