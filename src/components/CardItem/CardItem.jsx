@@ -28,7 +28,7 @@ export const CardItem = ({ item }) => {
         rel="noopener noreferrer"
         className="btn-whatsapp"
       >
-        <img className="icon-wpp" src="./src/assets/iconWpp.png" alt="" />
+        <img className="icon-wpp" src="/iconWpp/iconWpp.png" alt="" />
         Contacta por WhatsApp
       </a>
       </div>

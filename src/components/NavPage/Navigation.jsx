@@ -6,7 +6,7 @@ export default function Navigation() {
     <>
       <nav>
         <ul className="menu-horizontal">
-          <li><NavLink to="/">Inicio</NavLink></li>
+
           <li>
             <a href="#">Productos</a>
             <ul className="menu-vertical">

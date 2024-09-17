@@ -5,7 +5,7 @@ export default function Footer() {
     <>
     <div className="footer-container">
         <div className="img-container-footer">
-            <img className='img-footer' src="./src/assets/logo2.png" alt="Logo de Vianne Indumentaria" />
+            <img className='img-footer' src="./src/assets/logo2.png" alt="Logo de Stomps Urb" />
         </div>
         <div className="info-footer-container">
             <h4 className='title-info '>Info</h4>
