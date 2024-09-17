@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
         <div className="copy-container">
             <p className="copyright"> Tel:+54 9 2615 75-0680 - Email: llanezabautista6@gmail.com</p>
-            <p className="copyright"> Copyright © Desarrollado por Fernando Diaz fdiaz4823@gmail.com</p>
+            <p className="copyright"> Copyright © Desarrollado por Fernando Diaz - fdiaz4823@gmail.com</p>
         </div>
     </div>
    

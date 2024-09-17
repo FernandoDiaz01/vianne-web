@@ -3,26 +3,31 @@ import './viewgrid.css'
 
 export default function ViewGrid() {
   return (
-    <div>
-         <div className="title-container">
-        <h1 className="title">Destacados</h1>
-        </div>
-        <h1 className="title-category" >
-            ADIDAS
-        </h1>
-        <Content category="Adidas"/>
-        <h1 className="title-category">
-            Nike
-        </h1>
-        <Content category="Nike"/>
-        <h1 className="title-category">
-            Vans
-        </h1>
-        <Content category="Vans"/>
-        <h1 className="title-category">
-            Puma
-        </h1>
-        <Content category="Puma"/>
-    </div>
-  )
+    <>
+      <div className="title-container">
+        <h1 className="title">DESTACADOS</h1>
+      </div>
+      <div>
+        <h2 id="adidas" className="title-category">
+          ADIDAS
+        </h2>
+        <Content category="Adidas" />
+        
+        <h2 id="nike" className="title-category">
+          Nike
+        </h2>
+        <Content category="Nike" />
+        
+        <h2 id="vans" className="title-category">
+          Vans
+        </h2>
+        <Content category="Vans" />
+        
+        <h2 id="puma" className="title-category">
+          Puma
+        </h2>
+        <Content category="Puma" />
+      </div>
+    </>
+  );
 }

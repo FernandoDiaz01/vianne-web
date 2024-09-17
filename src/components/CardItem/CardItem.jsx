@@ -10,6 +10,7 @@ export const CardItem = ({ item }) => {
       </div>
 
       <InnerImageZoom
+       
         src={item.Image}
         zoomSrc={item.Image}
         alt={item.name}
@@ -27,6 +28,7 @@ export const CardItem = ({ item }) => {
         rel="noopener noreferrer"
         className="btn-whatsapp"
       >
+        <img className="icon-wpp" src="./src/assets/iconWpp.png" alt="" />
         Contacta por WhatsApp
       </a>
       </div>

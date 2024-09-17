@@ -10,19 +10,6 @@ export default function Content({category}) {
 
   const items = data[category]
 
-/* 
-  const [visibleItems, setVisibleItems] = useState(9)
-  const [showButton, setShowButton] = useState(true)
-
-  const loadMoreItems = () => {
-    setVisibleItems((prevVisibleItems) => {
-      const newVisibleItems = prevVisibleItems + 3
-      if (newVisibleItems >= shoes.length) {
-        setShowButton(false)
-      }
-      return newVisibleItems
-    })
-  }; */
   return (
     <main className="content-container">
        
@@ -35,10 +22,6 @@ export default function Content({category}) {
         ))}
         
       </div>
-      
-     {/*  {showButton && (
-        <button onClick={loadMoreItems} className='btn-content'> Ver más</button>
-      )} */}
     </main>
   )
 }

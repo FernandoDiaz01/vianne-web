@@ -1,9 +1,11 @@
+/* Estilos generales */
 .content-container {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
+    padding-bottom: 30px;
 }
 
 .title-container {
@@ -23,7 +25,8 @@
     justify-content: space-between;
     max-width: 900px;
     margin: 0 auto;
-    gap: 20px; }
+    gap: 20px;
+}
 
 .card-container {
     display: flex;
@@ -31,7 +34,6 @@
     align-items: center;
     width: 30%;
     max-width: 300px;
-    cursor: pointer;
     margin-bottom: 20px;
 }
 
@@ -41,7 +43,7 @@
     justify-content: center;
 }
 
-.img-shoes{
+.img-shoes {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -57,8 +59,6 @@ h3 {
     margin-top: 2px;
 }
 
-
-
 .btn-content {
     border: 2px solid white;
     background-color: #CCE64F;
@@ -73,15 +73,10 @@ h3 {
 
 .btn-content:hover {
     background-color: #A2BD22;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
 }
 
-
-  
-
-  
-
-/* Responsive para pantallas pequeñas */
+/* Responsive para pantallas pequeñas (mobile) */
 @media (max-width: 468px) {
     .title {
         font-size: 35px;
@@ -111,5 +106,79 @@ h3 {
 
     h3 {
         font-size: 18px;
+    }
+
+    .img-shoes {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Responsive para pantallas medianas (tablet) */
+@media (min-width: 469px) and (max-width: 768px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .product-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-container {
+        width: 45%; /* Dos productos por fila */
+    }
+
+    .img-shoes {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-content {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .title-shoes {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+/* Responsive para pantallas grandes (PC) */
+@media (min-width: 769px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .product-container {
+        justify-content: space-between;
+        max-width: 1200px; /* Ampliamos el contenedor */
+    }
+
+    .card-container {
+        width: 30%; /* Tres productos por fila */
+    }
+
+    .img-shoes {
+        width: 300px;
+        height: 300px;
+    }
+
+    .btn-content {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .title-shoes {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
     }
 }
