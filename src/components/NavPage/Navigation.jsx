@@ -31,7 +31,7 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Consultá por otros modelos
+              Más modelos
             </NavLink>
           </li>
         </ul>

@@ -6,26 +6,37 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 10;
     background-color: black;
 }
 
-.menu-horizontal {
+.menu-horizontal, .menu-vertical {
     list-style: none;
+    border-radius: 5%;
+}
+
+.menu-horizontal {
     display: flex;
     justify-content: space-around;
 }
 
-.menu-horizontal > li > a {
+.menu-horizontal > li{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-horizontal > li > a, .menu-vertical li a {
     display: block;
     padding: 15px 20px;
-    color: white;
     text-decoration: none;
     border-radius: 10%;
 }
 
-.menu-horizontal > li:hover {
+.menu-horizontal > li > a {
+    color: white;
+}
+
+.menu-horizontal > li:hover, .menu-vertical li:hover {
     background-color: #CCE64F;
     border-radius: 5%;
 }
@@ -33,55 +44,49 @@ nav {
 .menu-vertical {
     position: absolute;
     display: none;
-    list-style: none;
     width: 150px;
     background-color: #CCE64F;
     border: 2px solid black;
-    border-radius: 5%;
 }
 
 .menu-horizontal li:hover .menu-vertical {
     display: block;
-    border-radius: 5%;
 }
 
 .menu-vertical li:hover {
     background-color: #A2BD22;
-    border-radius: 5%;
 }
 
 .menu-vertical li a {
-    display: block;
     color: black;
-    text-decoration: none;
-    padding: 15px 15px 15px 20px;
-    border-radius: 5%;
+    padding: 15px 20px;
 }
 
-/* Imagen de fondo */
+
 .img-fondo {
     position: relative;
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    object-position: center; /* Centra la imagen dentro del contenedor */
+    object-position: center;
 }
 
-/* Para pantallas medianas */
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-width: 468px) {
+    .menu-horizontal > li > a {
+        color: white;
+        font-size: 17px;
+    }
     .img-fondo {
-        object-fit: cover;
-        width: 100%;
         height: auto;
     }
 }
 
-/* Para pantallas pequeñas */
 @media (max-width: 468px) {
+    .menu-horizontal > li > a {
+        color: white;
+        font-size: 17px;
+    }
     .img-fondo {
-        object-fit: cover;
-        width: 100%;
-        height: auto;
-        object-position: top; /* Centra la parte superior de la imagen */
+        object-position: top;
     }
 }
